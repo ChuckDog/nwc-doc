@@ -1,0 +1,15 @@
+{
+  "name": "nwc-doc",
+  "version": "1.0.0",
+  "description": "这里是后浪俱乐部 文档管理工具",
+  "main": "index.js",
+  "author": "ChuckDoggy",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
